@@ -1,4 +1,4 @@
-# 🌐 Projeto: Acessibilidade na Web
+# 🌐 Projeto: DESAFIOS PARA ACESSIBILIDADE LIMITADA DA WEB
 
 Este projeto foi desenvolvido como parte do **3º bimestre do 3º ano do ensino médio** no curso **Alura Start**.
 
