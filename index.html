@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acessibilidade na Web</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Acessibilidade na Web</h1>
+    <nav aria-label="Menu de acessibilidade">
+      <ul>
+        <li><button onclick="aumentarFonte()">A+</button></li>
+        <li><button onclick="diminuirFonte()">A-</button></li>
+        <li><button onclick="alternarContraste()">Contraste</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section" id="introducao">
+      <h2>Importância da Acessibilidade</h2>
+      <p>
+        A acessibilidade digital garante que pessoas com diferentes habilidades
+        possam interagir e compreender o conteúdo de forma igualitária.
+      </p>
+    </section>
+
+    <section class="section" id="creative-commons">
+      <h2>Licenças Creative Commons</h2>
+      <p>
+        Permitem o uso, compartilhamento e adaptação de conteúdos com regras
+        claras de atribuição e direitos.
+      </p>
+    </section>
+
+    <section class="section" id="teclado">
+      <h2>Navegação pelo Teclado</h2>
+      <p>
+        Garantir que sites possam ser navegados usando apenas o teclado é
+        essencial para muitos usuários.
+      </p>
+    </section>
+
+    <section class="section" id="aria">
+      <h2>Uso de atributos ARIA</h2>
+      <p>
+        Atributos ARIA ajudam leitores de tela a interpretar melhor os elementos
+        de uma página.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto desenvolvido no 3º bimestre — Alura Start</p>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
